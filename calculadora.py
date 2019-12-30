@@ -1,3 +1,4 @@
+#Calculadora básica en Python
 while True:
     print("""Opciones
     Ingrese '+' para sumar dos numeros
@@ -29,6 +30,11 @@ while True:
         num1=float(input("Ingrese un numero:"))
         num2=float(input("Ingrese otro numero:"))
         result=str(num1/num2)
+        print("Respuesta: "+result)
+    elif teclado=="%":
+        num1=float(input("Ingrese un numero:"))
+        num2=float(input("Ingrese otro numero:"))
+        result=str(int(num1%num2))
         print("Respuesta: "+result)
     else:
         print("Opcion inválida")
